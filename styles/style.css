@@ -9,6 +9,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.b-login {
+    background-color: rgba(233, 180, 35, 0.5);
+}
+
 .cards-container {
     scroll-snap-type: x mandatory;
     margin-top: 2rem;
@@ -40,4 +44,10 @@ body {
 .buy-button:hover{
     color: #fff;
     background-color: #252525;
+}
+
+.img1 {
+    width: auto;
+    height: 80%;
+    margin-right: 50px;
 }
