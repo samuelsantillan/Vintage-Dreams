@@ -9,10 +9,51 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 .b-login {
     background: #099396;
 }
 .spam {
     color: black;
+}
+
+
+.promo-card{
+    margin: 25px 15px;
+    padding: 10px;
+    border-radius: 25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 1px 16px 44px -20px rgba(0,0,0,0.75);    
+}
+.promo-card a {
+    text-decoration: none;
+    color: #252525;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;    
+}
+.card-text {
+    margin-top: -9rem;
+    margin-left: -1rem;
+    color: #fff;
+}
+.card-text h3 {
+    font-weight: 700;
+    text-align: left;
+}
+
+.promotion {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.promotion h5 {
+    background-color: #FF6666;
+    padding: 5px 10px;
+    border-radius: 15px;    
 }
 
