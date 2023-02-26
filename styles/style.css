@@ -69,8 +69,9 @@ del {
     gap: 9px;
 }
 .banner-text {
-    height: 450px;
+    height: auto;
     display: flex;
+    padding-top: 4rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -149,3 +150,25 @@ del {
     border-radius: 10%;
 }
 
+.firstCol,
+.secondCol{
+    border: 2px solid red;
+    height: 400px;
+}
+.categories{
+    padding-top: 3rem;
+}
+.categories-title {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.categories-title h3 {
+    font-weight: 600;
+}
+.categories-title p {
+    color: #454545;
+}
+.cat-img-01 img{
+    width: 500px;
+}
