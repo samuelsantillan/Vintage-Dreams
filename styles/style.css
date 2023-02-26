@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;600;700&display=swap");
 
 * {
   margin: 0;
@@ -15,8 +15,7 @@ body {
 
 .cards-container {
     scroll-snap-type: x mandatory;
-    margin-top: 2rem;
-    
+    margin-top: 2rem;    
 }
 .card-content {
     scroll-snap-align: start;
@@ -27,7 +26,7 @@ body {
 }
 .card-content:hover{
     transform: translateY(-3px);
-}
+} 
 .card-title {
     font-weight: 700;
 }
@@ -60,6 +59,7 @@ strong {
     padding: 5px 10px;
     border-radius: 25px;
 }
+
 del {
     color: #454545
 }
@@ -67,4 +67,78 @@ del {
     display: flex;
     align-items: center;
     gap: 9px;
+}
+.banner-text {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px 0px 0px 25px;
+}
+.banner-text h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    width: 79%;
+}
+.color-word{
+    color: #E73700;
+}
+.sesion-buttons{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+}
+.login-button {
+    text-decoration: none;
+    color:#fff;
+    background-color: #252525;
+    
+    padding: 10px 35px;
+    text-align: center;
+    border-radius: 25px;
+    text-transform: capitalize;
+    transition: all 200ms ease;
+}
+.login-button:hover{
+    color: #fff;
+    background-color: #E73700;
+    
+}
+.register-button {
+    text-decoration: none;
+    color: #E73700;
+    border: 2px solid #E73700;;
+    padding: 10px 35px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    transition: all 200ms ease;
+}
+.register-button:hover{
+    color: #fff;
+    background-color: #E73700;
+}
+.banner-pic{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 25px 25px 0;
+    
+}
+.banner-pic img {
+    width: 85%;
+    height:auto ;
+    object-fit:contain;
+}
+
+.section-banner{
+    background-color: #E73700;
+    padding-top: 3rem;
+}
+.section-banner .container .row{
+    background-color: #fff;
+    height: auto;
+    border-radius: 25px;
 }
