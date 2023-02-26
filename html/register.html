@@ -16,7 +16,7 @@
   <body class="b-login">
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Vintage Dreams</a>
+        <a class="navbar-brand logologin" href="#"> <img src="../src/icons/logo.png" alt="logo-navbar"> </a>
       </div>
     </nav>
     <main class="container w-75 mb-5 mt-5 bg-body-secondary">
@@ -29,13 +29,15 @@
           <form action="#">
             <div class="mb-4">
               <label for="texto" class="form-label fw-bolder"
-                >Nombre comleto</label
+                >Nombre completo</label
               >
               <input
                 type="text"
                 class="form-control"
-                name="nombre"
+                name="nombre y apellido"
                 placeholder="pedro perez"
+                pattern="[A-Za-z0-9]+"
+                required
               />
             </div>
             <div class="mb-4">
@@ -43,7 +45,16 @@
                 <label for="Usuario" class="form-label fw-bolder"
                   >Nombre de Usuario</label
                 >
-                <input type="text" class="form-control" name="Usuario" />
+                <input
+                  type="text"
+                  class="form-control"
+                  name="Usuario"
+                  placeholder="pedroperez80"
+                  minlength="4"
+                  maxlength="20"
+                  pattern="[A-Za-z0-9]+"
+                  required
+                />
               </div>
             </div>
             <div class="mb-4">

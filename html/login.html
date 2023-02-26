@@ -14,18 +14,20 @@
     <title>Login</title>
   </head>
   <body class="b-login">
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Vintage Dreams</a>
+    <nav class="navbar bg-secondary">
+      <div class="container-fluid logologin">
+        <a class="navbar-brand" href="../html/index.html">
+          <img src="../src/icons/logo.png" alt="logo-navbar" />
+        </a>
       </div>
     </nav>
     <main class="container w-75 mb-5 mt-5">
       <section class="row align-items-lg-stretch">
-        <aside class="col mt-5 d-none d-lg-block">
-          <img class="img1" src="../src/images/cadisco2.png" alt="" />
+        <aside class="col d-none d-lg-block">
+          <img class="img1" src="../src/images/carteles1.png" alt="" />
         </aside>
         <aside class="col p-5">
-          <h2 class="fw-bolder text-center pt-5 mb-5">Bienvenido</h2>
+          <h2 class="fw-bolder text-center pt-2 mb-5">Bienvenido</h2>
           <form action="#">
             <div class="mb-4">
               <label for="email" class="form-label fw-bolder"
@@ -58,12 +60,23 @@
               >
             </div>
             <div class="d-grid">
-              <button type="submit" class="btn btn-danger">Ingresar</button>
+              <a href=".//Error404.html" class="btn btn-danger" target="_blank">Ingresa</a>
             </div>
             <div class="my-3">
-              <span>¿No tenés una cuenta?<a href="../html/register.html" target="_blank"> Registrate</a></span>
+              <span
+                >¿No tenés una cuenta?<a
+                  href="../html/register.html"
+                  target="_blank"
+                >
+                  Registrate</a
+                ></span
+              >
               <br />
-              <span> <a href="../html/Error404.html" target="_blank">Recuperar contraseña</a></span>
+              <span>
+                <a href="../html/Error404.html" target="_blank"
+                  >Recuperar contraseña</a
+                ></span
+              >
             </div>
           </form>
           <div class="container w-100 my-5">
@@ -87,7 +100,7 @@
                           />
                         </svg>
                       </div>
-                      <div class="col-10 btn fw-bolder">Facebook</div>
+                      <a class="col-10 btn fw-bolder" href="../html/Error404.html" target="_blank" >Facebook</a>
                     </div>
                   </button>
                 </div>
@@ -108,8 +121,7 @@
                           />
                         </svg>
                       </div>
-                      <div class="col-10 btn fw-bolder">Google</div>
-                      
+                      <a class="col-10 btn fw-bolder" href="../html/Error404.html" target="_blank" >Google</a>
                     </div>
                   </button>
                 </div>
