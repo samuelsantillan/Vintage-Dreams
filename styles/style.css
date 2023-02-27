@@ -10,9 +10,7 @@ body {
 }
 
 .b-login {
-    background-color: #f6f1f1 ;
-    /* background-image: url(../src/images/fondologin2.jpeg); */
-    
+    background-color: #E73700 ;
 }
 
 .cards-container {
@@ -151,6 +149,9 @@ del {
     border-radius: 10%;
 }
 .fondoregister {
-    background-color: rgb(190, 155, 110);
+    background-color: rgb(193, 189, 185);
     border-radius: 10px;
+}
+.marginlefth {
+    margin-left: 50px;
 }
