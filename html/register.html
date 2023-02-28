@@ -16,17 +16,19 @@
   <body class="b-login">
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand logologin" href="#"> <img src="../src/icons/logo.png" alt="logo-navbar"> </a>
+        <a class="navbar-brand logologin" href="#">
+          <img src="../src/icons/logo.png" alt="logo-navbar" />
+        </a>
       </div>
     </nav>
-    <main class="container w-auto mb-5 mt-5 fondoregister ">
-      <section class="row align-items-lg-stretch">
-        <aside class="col p-5">
+    <main class="container w-50 center1 fondoregister">
+      <section class="row">
+        <aside class="col p-5 col-lg-8">
           <h2 class="fw-bolder text-center pt-5 mb-5">Registrate</h2>
           <form action="#">
             <div class="mb-4">
               <label for="texto" class="form-label fw-bolder"
-                >Nombre completo</label
+                >Nombre y Apellido</label
               >
               <input
                 type="text"
@@ -60,33 +62,75 @@
                 <input
                   type="email"
                   class="form-control"
-                  name="password"
+                  name="email"
                   placeholder="rolling@gmail.com"
+                  minlength="4"
+                  maxlength=""
+                  required
+                />
+              </div>
+            </div>
+            <div class="mb-4">
+              <div class="mb-4">
+                <label for="telefono" class="form-label fw-bolder"
+                  >tefefono</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  name="password"
+                  minlength="4"
+                  maxlength="20"
+                  pattern="[A-Za-z0-9]+"
+                  required
                 />
               </div>
             </div>
             <div class="mb-4">
               <div class="mb-4">
                 <label for="password" class="form-label fw-bolder"
-                  >Password</label
+                  >domicilio</label
                 >
-                <input type="password" class="form-control" name="password" />
+                <input
+                  type="text"
+                  class="form-control"
+                  name="domicilio"
+                  minlength="8"
+                  maxlength="20"
+                  required
+                />
+              </div>
+            </div>
+            <div class="mb-4">
+              <div class="mb-4">
+                <label for="codigostal" class="form-label fw-bolder"
+                  >codigo postal</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  name="codigopostal"
+                  minlength="4"
+                  maxlength="20"
+                  pattern="[A-Za-z0-9]+"
+                  required
+                />
               </div>
             </div>
             <div class="mb-4">
               <div class="mb-4">
                 <label for="password" class="form-label fw-bolder"
-                  >Password</label
+                  >contraseña</label
                 >
-                <input type="password" class="form-control" name="password" />
-              </div>
-            </div>
-            <div class="mb-4">
-              <div class="mb-4">
-                <label for="password" class="form-label fw-bolder"
-                  >Password</label
-                >
-                <input type="password" class="form-control" name="password" />
+                <input
+                  type="password"
+                  class="form-control"
+                  name="password"
+                  minlength="4"
+                  maxlength="20"
+                  pattern="[A-Za-z0-9]+"
+                  required
+                />
               </div>
             </div>
             <div class="mb-4 form-check">
@@ -97,7 +141,11 @@
                 id=""
               />
               <label for="connected" class="form-check-label"
-                >Mantener conecatdo</label
+                >Acepto los terminos y condiciones <br /><a
+                  href="../html/login.html"
+                  target="_blank"
+                  >Ya tengo cuenta</a
+                ></label
               >
             </div>
             <div class="d-grid">
@@ -125,7 +173,12 @@
                           />
                         </svg>
                       </div>
-                      <div class="col-10 btn fw-bolder">Facebook</div>
+                      <a
+                        class="col-10 btn fw-bolder"
+                        href="./Error404.html"
+                        target="_blank"
+                        >Facebook</a
+                      >
                     </div>
                   </button>
                 </div>
@@ -146,7 +199,12 @@
                           />
                         </svg>
                       </div>
-                      <div class="col-10 btn fw-bolder">Google</div>
+                      <a
+                        class="col-10 btn fw-bolder"
+                        href="./Error404.html"
+                        target="_blank"
+                        >Google</a
+                      >
                     </div>
                   </button>
                 </div>

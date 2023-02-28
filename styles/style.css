@@ -10,8 +10,14 @@ body {
 }
 
 .b-login {
-    
+    background-color:#d5d5d5;
 }
+
+/* .center1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
 
 .cards-container {
     scroll-snap-type: x mandatory;
@@ -143,19 +149,20 @@ del {
     height: auto;
     border-radius: 25px;
 }
-.logologin {
-    margin-left: 45%;
-}
+
 .img1 {
     border-radius: 10%;
 }
 
 .fondoregister {
-    background-color: rgb(193, 189, 185);
-    border-radius: 10px;
+    background-color: rgb(189, 121, 54);
+    border-radius: 25px;
+    
 }
-.marginlefth {
-    margin-left: 50px;
+.imgvintage {
+    max-width: 360px;
+    height: auto;
+    border-radius: 25px;
 }
 
 
