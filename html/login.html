@@ -15,18 +15,18 @@
   </head>
   <body class="b-login">
     <nav class="navbar bg-secondary">
-      <div class="container-fluid logologin">
+      <div class="container-fluid justify-content-md-center">
         <a class="navbar-brand" href="../html/index.html">
-          <img src="../src/icons/logo.png" alt="logo-navbar" />
+          <img class="img-fluid" src="../src/icons/logo.png" alt="logo-navbar"/>
         </a>
       </div>
     </nav>
-    <main class="container w-75 mb-5 mt-5 bg-body-secondary">
-      <section class="row align-items-lg-stretch">
-        <aside class="col d-none d-lg-block mt-5 marginlefth">
-          <img class="img1" src="../src/images/carteles1.png" alt="" />
+    <main class="container w-75 mb-5 mt-5">
+      <section class="row align-items-center">
+        <aside class="col d-none d-lg-block mt-5 ">
+          <img class="imgvintage" src="../src/images/carteles1.png" alt="" />
         </aside>
-        <aside class="col p-5">
+        <aside class="col p-lg-5">
           <h2 class="fw-bolder text-center pt-2 mb-5 ">Bienvenido</h2>
           <form action="#">
             <div class="mb-4">
@@ -45,7 +45,10 @@
                 <label for="password" class="form-label fw-bolder"
                   >Password</label
                 >
-                <input type="password" class="form-control" name="password" />
+                <input type="password"
+                 class="form-control" 
+                 name="password" 
+                 required/>
               </div>
             </div>
             <div class="mb-4 form-check">
@@ -60,9 +63,8 @@
               >
             </div>
             <div class="d-grid">
-              <a href=".//Error404.html" class="btn btn-danger" target="_blank"
-                >Ingresa</a
-              >
+              <button type="submit" class="btn btn-primary">Enviar</a>
+              </button>
             </div>
             <div class="my-3">
               <span
@@ -83,12 +85,13 @@
               >
             </div>
           </form>
-          <div class="container w-100 my-5">
-            <div class="row text-center">
+          <div class="container my-2">
+            <div class="row text-center mb-md-3">
               <div class="col-12 fw-bolder">Iniciar sesion</div>
-              <div class="row">
-                <div class="col">
-                  <button class="btn btn-outline-primary w-100 my-1">
+            </div>
+              <div class="row flex-column flex-md-row">
+                <div class="col flex-sm-column">
+                  <button class="btn btn-primary w-100 my-1">
                     <div class="row align-items-center">
                       <div class="col-2 d-none d-md-block">
                         <svg
@@ -105,7 +108,7 @@
                         </svg>
                       </div>
                       <a
-                        class="col-10 btn fw-bolder"
+                        class="col-12 col-md-10 col-lg-6 text-center btn fw-bolder"
                         href="../html/Error404.html"
                         target="_blank"
                         >Facebook</a
@@ -114,7 +117,7 @@
                   </button>
                 </div>
                 <div class="col">
-                  <button class="btn btn-outline-danger w-100 my-1">
+                  <button class="btn btn-danger w-100 my-1">
                     <div class="row align-items-center">
                       <div class="col-2 d-none d-md-block">
                         <svg
@@ -131,7 +134,7 @@
                         </svg>
                       </div>
                       <a
-                        class="col-10 btn fw-bolder"
+                        class="col-12 col-md-10 col-lg-6 text-center btn fw-bolder"
                         href="../html/Error404.html"
                         target="_blank"
                         >Google</a
@@ -140,7 +143,7 @@
                   </button>
                 </div>
               </div>
-            </div>
+            
           </div>
         </aside>
       </section>
