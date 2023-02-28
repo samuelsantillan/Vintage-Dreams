@@ -8,15 +8,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
-b.login {
-    background-color: rgb(51, 77, 77);
+.b-login {
+    background-color:#949190;
 }
-
-   
-
-
-
 
 .cards-container {
     scroll-snap-type: x mandatory;
