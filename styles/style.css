@@ -9,10 +9,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.b-login {
-    
-}
-
 .cards-container {
     scroll-snap-type: x mandatory;
     margin-top: 2rem;    
@@ -136,7 +132,7 @@ del {
 
 .section-banner{
     background-color: #E73700;
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 .section-banner .container .row{
     background-color: #fff;
@@ -157,13 +153,6 @@ del {
 .marginlefth {
     margin-left: 50px;
 }
-
-
-.firstCol,
-.secondCol{
-    border: 2px solid red;
-    height: 400px;
-}
 .categories{
     padding-top: 3rem;
 }
@@ -178,7 +167,13 @@ del {
 .categories-title p {
     color: #454545;
 }
-.cat-img-01 img{
-    width: 500px;
+.cat-img{
+    border-radius: 25px;
+}
+.categories-card h4 {
+    text-align: center;
+}
+.categories-card{
+    margin-top: 1rem;    
 }
 
