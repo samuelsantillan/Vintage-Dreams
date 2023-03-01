@@ -9,9 +9,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .b-login {
-    background-color:#949190;
+    background-color:#666568;
 }
-
+.bordes01 {
+    border-radius: 25px;
+   
+}
 .cards-container {
     scroll-snap-type: x mandatory;
     margin-top: 2rem;    
