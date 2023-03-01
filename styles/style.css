@@ -8,9 +8,8 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
 .b-login {
-    
+    background-color:#949190;
 }
 
 .cards-container {
@@ -136,33 +135,27 @@ del {
 
 .section-banner{
     background-color: #E73700;
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 .section-banner .container .row{
     background-color: #fff;
     height: auto;
     border-radius: 25px;
 }
-.logologin {
-    margin-left: 45%;
-}
+
 .img1 {
     border-radius: 10%;
 }
 
 .fondoregister {
-    background-color: rgb(193, 189, 185);
-    border-radius: 10px;
+    background-color: rgb(189, 121, 54);
+    border-radius: 25px;
+    
 }
-.marginlefth {
-    margin-left: 50px;
-}
-
-
-.firstCol,
-.secondCol{
-    border: 2px solid red;
-    height: 400px;
+.imgvintage {
+    max-width: 360px;
+    height: auto;
+    border-radius: 25px;
 }
 .categories{
     padding-top: 3rem;
@@ -178,7 +171,13 @@ del {
 .categories-title p {
     color: #454545;
 }
-.cat-img-01 img{
-    width: 500px;
+.cat-img{
+    border-radius: 25px;
+}
+.categories-card h4 {
+    text-align: center;
+}
+.categories-card{
+    margin-top: 1rem;    
 }
 
