@@ -1,21 +1,61 @@
-.card-img-top {
-    height: 21rem;
-    width: 100%;
 
-}
-
-
-video  {
-    ;
-    width: 100%;
-    justify-content: left;
-}
-img  {
+.videoContainer {
+  width: 100%;
+  height: 60vh;
   
-    max-width: 100%; 
-	height: auto; 
+}
+
+.videoContainer > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aron {
+  background-image: url("../src/images/Aron.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.marcos {
+  background-image: url("../src/images/marcos.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.samuel {
+  background-image: url("../src/images/samuel.png");
+  background-position: center center;
+  background-size: cover;
+}
+.pablo {
+  background-image: url("../src/images/Aron.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.alvaro {
+  background-image: url("../src/images/Aron.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.description {
+  height: 4rem;
+  display: grid;
+  place-content: center;
+  background-color: rgb(219, 219, 219);
  
-    .car-body{
-        background-image: url("../src/images/marcos.jpg");
-        
-    }
+    
+}
+.description h3 {
+    margin: 0;
+}
+
+.ProfilePic {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.card > .imagen {
+  height: 20rem;
+  width: 100%;
+}
+
