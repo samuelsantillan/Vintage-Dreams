@@ -17,6 +17,17 @@ a {
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.navegador{
+    background-color: #E73700;
+    
+}
+
+.footer{
+    background-color: #E73700;
+    margin-top: 50px;
+}
+
 .b-login {
     background-color:#E73700
 }
