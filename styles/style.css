@@ -9,7 +9,10 @@
 a {
     text-decoration: none;
     color: #000000;
-
+}
+.link-login {
+    color: blue;
+    text-decoration: underline;
 }
 body {
   font-family: "Poppins", sans-serif;
