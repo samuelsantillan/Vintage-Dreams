@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;600;700&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,10 @@
 a {
     text-decoration: none;
     color: #000000;
-
+}
+.link-login {
+    color: blue;
+    text-decoration: underline;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -202,6 +206,11 @@ del {
 .btn-product{
     background-color: #E73700;
     color: white;
+}
+
+.price-product{
+    color: #E73700;
+    font-weight: 600;
 }
 
 /* Productos */
