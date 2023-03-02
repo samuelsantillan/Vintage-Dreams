@@ -15,6 +15,7 @@ body {
     border-radius: 25px;
    
 }
+
 .cards-container {
     scroll-snap-type: x mandatory;
     margin-top: 2rem;    
