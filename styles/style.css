@@ -213,6 +213,44 @@ del {
     font-weight: 600;
 }
 
+.title-product{
+    font-weight: bold;
+}
+
+.row-comentarios{
+    border: 1px solid rgb(124, 124, 124);
+
+}
+
+.people-container{
+    position: relative;
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+}
+
+.people-review-image{
+    height: 70px;
+    width: 71px;
+    border-radius: 50%;
+}
+
+.people-review-name{
+    vertical-align: middle;
+    align-self: center;
+}
+
+.p-review{
+    line-height: 2;
+}
+
+
+.bi-star-fill{
+    color: #fbd600;
+    
+}
+
+
 /* Productos */
 
 @media screen and (max-width: 768px) {
