@@ -24,8 +24,17 @@ body {
 }
 
 .footer{
-    background-color: #E73700;
+    background-color: rgb(80, 75, 75);
+    color: white;
     margin-top: 50px;
+    width: 100%;
+
+}
+
+.derechos{
+    background-color: white;
+    color: black;
+    justify-content: center;
 }
 
 .b-login {
