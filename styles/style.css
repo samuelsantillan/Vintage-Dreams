@@ -23,6 +23,17 @@ body {
     
 }
 
+.buscador{
+    width: 500px;
+}
+
+.botonNavbar:hover{
+
+    background-color: #fbd600;
+    border-radius: 10px;
+
+}
+
 .footer{
     background-color: rgb(80, 75, 75);
     color: white;
