@@ -28,18 +28,23 @@ body {
     color: white;
     margin-top: 50px;
     width: 100%;
+    padding: 45px;
 
 }
 
 .derechos{
     background-color: white;
     color: black;
-    justify-content: center;
+    text-align: center;
+    padding: 15px 10px;
+    width: 100%;
+    
 }
 
 .b-login {
     background-color:#E73700
 }
+
 .bordes01 {
     border-radius: 25px;
    
