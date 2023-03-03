@@ -1,16 +1,5 @@
-
-.fondo {
-    background-image: url("../src/images/tv404.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    
+body{
+  background-image: url(../src/images/vintagebg.jpg);
 }
-.texto{
-    align-items: end;
-}
-
-
-
-
 
 

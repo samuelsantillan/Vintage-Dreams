@@ -1,0 +1,77 @@
+.tarjeta > img {
+  height: 9rem;
+  border-radius: 15%;
+}
+
+.tarjeta {
+    padding:2rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ h3{
+    font-weight: 600;
+ }
+
+/* 
+.tarjeta2 > p {
+    position: absolute;
+    top: 33vh;
+    left: 23vh;
+    
+}
+.tarjeta2 > h3 {
+    position: absolute;
+    top: 38vh;
+    left: 23vh;
+}
+.tarjeta3 > p {
+    position: absolute;
+    top: 54vh;
+    left: 23vh;
+    
+}
+.tarjeta3 > h3 {
+    position: absolute;
+    top: 59vh;
+    left: 23vh;
+}
+
+.tarjeta4 > p {
+    position: absolute;
+    top: 75vh;
+    left: 23vh;
+    
+}
+.tarjeta4 > h3 {
+    position: absolute;
+    top: 80vh;
+    left: 23vh;
+}
+
+.boton1 {
+    position: absolute;
+    top: 33vh;
+    left: 80vh; 
+}
+
+.boton2 {
+    position: absolute;
+    top: 54vh;
+    left: 80vh; 
+}
+
+.boton3 {
+    position: absolute;
+    top: 75vh;
+    left: 80vh; 
+}
+
+.boton4 {
+    position: absolute;
+    top: 13vh;
+    left: 80vh; 
+} */
+
+
