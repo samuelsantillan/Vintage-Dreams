@@ -38,7 +38,8 @@
                 class="form-control"
                 name="email"
                 placeholder="rolling@gmail.com"
-              />
+                pattern="[a-zA-Z0-9]([^ @&%$\\\/()=?¿!.,:;]?|\d?)+[a-zA-Z0-9][\.]){1,2}"
+                required/>
             </div>
             <div class="mb-4">
               <div class="mb-4">
@@ -47,7 +48,10 @@
                 >
                 <input type="password"
                  class="form-control" 
-                 name="password" 
+                 name="password"
+                 minlength="12"
+                 maxlength="15"
+                 pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[AZ])(? =.*[az]).*$"
                  required/>
               </div>
             </div>
@@ -87,7 +91,7 @@
           </form>
           <div class="container my-2">
             <div class="row text-center mb-md-3">
-              <div class="col-12 fw-bolder">Iniciar sesion</div>
+              <div class="col-12 fw-bolder"><u>Iniciar sesion con</u></div>
             </div>
               <div class="row flex-column flex-md-row">
                 <div class="col flex-sm-column">
