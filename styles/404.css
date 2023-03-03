@@ -1,9 +1,16 @@
-body {
-    display: ;
-    margin: 0;
-    padding: 0;
-    background-image: url(../src/images/404bg.jpg);
-    background-size: cover;
-    
+
+.fondo {
+    background-image: url("../src/images/tv404.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
+.texto{
+    align-items: end;
+}
+
+
+
+
+
+

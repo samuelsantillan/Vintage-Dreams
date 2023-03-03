@@ -17,9 +17,34 @@ a {
 body {
   font-family: "Poppins", sans-serif;
 }
-.b-login {
-    background-color:#666568;
+
+.navegador{
+    background-color: #E73700;
+    
 }
+
+.footer{
+    background-color: rgb(80, 75, 75);
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    padding: 45px;
+
+}
+
+.derechos{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px 10px;
+    width: 100%;
+    
+}
+
+.b-login {
+    background-color:#E73700
+}
+
 .bordes01 {
     border-radius: 25px;
    
@@ -212,6 +237,43 @@ del {
     color: #E73700;
     font-weight: 600;
 }
+
+.title-product{
+    font-weight: bold;
+}
+
+.row-comentarios{
+    border: 1px solid rgb(124, 124, 124);
+}
+
+.people-container{
+    position: relative;
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+}
+
+.people-review-image{
+    height: 70px;
+    width: 71px;
+    border-radius: 50%;
+}
+
+.people-review-name{
+    vertical-align: middle;
+    align-self: center;
+}
+
+.p-review{
+    line-height: 2;
+}
+
+
+.bi-star-fill{
+    color: #fbd600;
+    
+}
+
 
 /* Productos */
 
