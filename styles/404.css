@@ -1,11 +1,12 @@
 
 .fondo {
-    background-image: url("../src/images/cable.jpg");
-    background-position: right;
+    background-image: url("../src/images/tv404.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     
-    
-    
+}
+.texto{
+    align-items: end;
 }
 
 
