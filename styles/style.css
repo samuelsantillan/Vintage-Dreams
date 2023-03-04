@@ -233,6 +233,13 @@ del {
     color: white;
 }
 
+.banner-category{
+    height: 40hv;
+    background-image:  url(../src/1.jpg), linear-gradient(rgb(163, 135, 135), rgb(175, 194, 8));
+    background-size: cover;
+    background-position: 69%;
+}
+
 .price-product{
     color: #E73700;
     font-weight: 600;
